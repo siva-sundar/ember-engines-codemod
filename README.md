@@ -1,2 +1,2 @@
 # ember-engines-codemod
-A code mod to move a module/folder as an in-repo-engine
+A npm package to move a module/folder as an in-repo-engine
