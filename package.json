@@ -1,0 +1,23 @@
+{
+  "name": "ember-engine-codemod",
+  "version": "0.0.1",
+  "description": "A codemod to move a module as an in-repo-engine",
+  "main": "index.js",
+  "bin": {
+    "ember-engines-codemod": "index.js"
+  },
+  "author": "Gerald nishan Miranda and Sivakumar",
+  "dependencies": {
+    "@glimmer/syntax": "^0.32.3",
+    "babel-preset-env": "^1.6.1",
+    "chalk": "^2.3.2",
+    "eslint": "^4.18.1",
+    "jscodeshift": "^0.4.1",
+    "ora": "^2.0.0",
+    "strip-bom": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.9.0"
+  }
+}
